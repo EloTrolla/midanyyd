@@ -1,0 +1,60 @@
+/* ylesanne valmis */
+li.completed a {
+	background-color: #a7e8f2;
+}
+
+
+
+/* fixed header */
+.ui-bar, .ui-bar-a {
+	font-weight: 700;
+	text-shadow: none;
+	border-color: #52c234;
+	color: black;
+	-webkit-box-shadow: 0px 2px 4px #888888;
+	-moz-box-shadow: 0px 2px 4px #888888;
+	box-shadow: 0px 2px 4px #888888;
+}
+
+.ui-mobile .ui-header {
+	background-color: #52c234;
+	background-image: none;
+}
+
+
+/* ylesannete nimekiri */
+.ui-li {
+	border-top-width: 0px;
+}
+
+
+/* nupud (valmis, pooleli, lisa uus) */
+.ui-page,
+.ui-btn{
+	background-color: #f6efe8;
+	background-image: none;
+}
+
+.ui-icon-check {
+	background-color: #52c234;
+}
+
+.ui-icon-delete {
+	background-color: #ff6040;
+}
+
+.ui-icon-plus {
+	background-color: #000;
+}
+
+.ui-content,
+.ui-btn,
+ul a {
+	-webkit-box-shadow: 0px 2px 4px #888888;
+	-moz-box-shadow: 0px 2px 4px #888888;
+	box-shadow: 0px 2px 4px #888888;
+}
+
+.ui-btn {
+	border: none;
+}
