@@ -1,11 +1,13 @@
+
+
 /* ylesanne valmis */
-li.completed a {
+li.completed {
 	background-color: #a7e8f2;
 }
 
 
 
-/* fixed header */
+/* fixed header
 .ui-bar, .ui-bar-a {
 	font-weight: 700;
 	text-shadow: none;
@@ -15,16 +17,37 @@ li.completed a {
 	-moz-box-shadow: 0px 2px 4px #888888;
 	box-shadow: 0px 2px 4px #888888;
 }
+*/
 
 .ui-mobile .ui-header {
 	background-color: #52c234;
 	background-image: none;
+	font-weight: 700;
+	text-shadow: none;
+	border: none;
+	color: black;
+	-webkit-box-shadow: 0px 2px 4px #888888;
+	-moz-box-shadow: 0px 2px 4px #888888;
+	box-shadow: 0px 2px 4px #888888;
 }
 
 
 /* ylesannete nimekiri */
 .ui-li {
 	border-top-width: 0px;
+}
+
+
+/* nimekirja tekst */
+
+.ui-li-desc {
+	font-size: 1em;
+	display: inline-block;
+}
+
+.ui-li-heading {
+	display: inline-block;
+	float: right;
 }
 
 
@@ -55,6 +78,27 @@ ul a {
 	box-shadow: 0px 2px 4px #888888;
 }
 
+
 .ui-btn {
 	border: none;
+}
+
+.delete {
+	background-color: #ffc5ba;
+}
+
+.add {
+	background-color: #aedd94;
+}
+
+
+.ui-btn-up-c,
+.ui-btn-hover-c {
+	text-shadow: none;
+}
+
+
+.ui-btn-inner {
+	border-top: 1px solid #fff;
+	border-color: rgba(255,255,255,.3);
 }

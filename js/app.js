@@ -41,7 +41,7 @@ var app = {
 
                 // If not completed
                 if (td.status == 0) {
-                    outstanding.push('<li data-row-id="' + td.id + '" class="outstanding"><a href="view.html" data-transition="slide" class="view" data-view-id="' + td.id +'"><h2>' + td.title+ '</h2><p>' + td.description + '</p></a><a href="#" data-icon="check" data-iconpos="notext" class="mark-completed" data-mark-id="' + td.id +'">Mark as completed</a></li>');
+                    outstanding.push('<li data-row-id="' + td.id + '" class="outstanding"><a href="view.html" data-transition="slide" class="view" data-view-id="' + td.id +'"><p>' + td.description + '</p><h2>' + td.title+ '</h2></a><a href="#" data-icon="check" data-iconpos="notext" class="mark-completed" data-mark-id="' + td.id +'">Mark as completed</a></li>');
                 }
                 // If is completed
                 else {
@@ -97,7 +97,7 @@ var app = {
                 originalRow.remove();
 
                 // Re-build the li rather than clone as jqm generates a lot of fluff
-                var newRow = '<li data-row-id="' + id + '" class="completed"><a href="view.html" data-transition="slide" class="view" data-view-id="' + id +'"><h2>' + title + '</h2><p>' + desc + '</p></a><a href="#" data-icon="delete" data-iconpos="notext" class="mark-outstanding" data-mark-id="' + id +'">Mark as outstanding</a></li>';
+                var newRow = '<li data-row-id="' + id + '" class="completed"><a href="view.html" data-transition="slide" class="view" data-view-id="' + id +'"><p>' + desc + '</p><h2>' + title + '</h2></a><a href="#" data-icon="delete" data-iconpos="notext" class="mark-outstanding" data-mark-id="' + id +'">Mark as outstanding</a></li>';
 
                 // Add to completed
                 $('.todo-listview').append(newRow);
